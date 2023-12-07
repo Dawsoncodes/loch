@@ -20,10 +20,7 @@ export default function Home() {
       </div>
 
       {/* Right */}
-      <Group
-        vertical
-        className="w-full xl:w-5/12 p-10 justify-center mt-32 xl:mt-0"
-      >
+      <Group vertical className="w-full xl:w-5/12 p-10 mt-48">
         <SignupForm />
         <FeaturesMarquee className="xl:hidden mt-10" />
       </Group>
